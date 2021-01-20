@@ -21,7 +21,7 @@ export default function Search() {
   function handleSubmit(event) {
     event.preventDefault();
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=791caf474f5e47b0c7a34593ae174a7e&units=metric`;
-    //axios.get(apiUrl).then(showWeather);
+    axios.get(apiUrl).then(showWeather);
   }
   function changeCity(event) {
     setCity(event.target.value);
