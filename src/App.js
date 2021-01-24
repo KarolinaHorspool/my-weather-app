@@ -9,6 +9,7 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="London" />
         <Search />
+
         <footer>
           This project was coded by{" "}
           <a
@@ -22,9 +23,12 @@ export default function App() {
             href="https://github.com/KarolinaHorspool/my-weather-app"
             target="_blank"
           >
-            open-sourced
+            open-sourced on GitHub
           </a>{" "}
-          on GitHub
+          and{" "}
+          <a href="https://brave-engelbart-d9c046.netlify.app/" target="_blank">
+            hosted on Netlify
+          </a>
         </footer>
       </div>
     </div>

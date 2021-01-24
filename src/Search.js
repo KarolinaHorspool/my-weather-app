@@ -14,7 +14,7 @@ export default function Search() {
       temperature: response.data.main.temp,
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
-      icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+      icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
     });
   }
 
@@ -41,7 +41,7 @@ export default function Search() {
       <div className="WeatherInfo">
         {form}
         <ul>
-          <li> Temperature: {Math.round(weather.temperature)} ℃</li>
+          <li> Temperature: {Math.round(weather.temperature)}℃</li>
           <li>Description: {weather.description}</li>
           <li>Wind: {Math.round(weather.wind)} km/h </li>
           <li>Humidity: {weather.humidity}%</li>
