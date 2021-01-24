@@ -1,16 +1,22 @@
 {
-  "name": "1",
-  "version": "1.0.0",
-  "description": "package.json v2",
-  "main": "2",
+  "name": "my-weather-app",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
     "bootstrap": "^4.6.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1",
+    "web-vitals": "^0.2.4"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node your-script.js",
-    "test": "json"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
