@@ -1,7 +1,11 @@
 .App {
   font-family: sans-serif;
   text-align: center;
-  margin: 0 auto;
+  max-width: 600px;
+  margin: 30px auto;
+  border: 1px solid #dadde1;
+  padding: 16px;
+  border-radius: 4px;
 }
 
 form {
