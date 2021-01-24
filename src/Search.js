@@ -32,6 +32,9 @@ export default function Search() {
       <form onSubmit={handleSubmit}>
         <input type="search" placeholder="Enter a city" onChange={changeCity} />
         <input type="submit" value="Search" />
+        <button type="submit" class="btn btn-secondary" id="current-location">
+          Current Location
+        </button>
       </form>
     </div>
   );
