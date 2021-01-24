@@ -9,7 +9,7 @@ export default function App() {
         <footer>
           This project was coded by{" "}
           <a
-            href="https://www.shecodes.io/hall-of-fame?q=Karolina+Horspool"
+            href="https://www.shecodes.io/students/244-karolina-horspool"
             target="_blank"
           >
             Karolina Horspool
@@ -19,8 +19,9 @@ export default function App() {
             href="https://github.com/KarolinaHorspool/my-weather-app"
             target="_blank"
           >
-            open-sourced on GitHub
-          </a>
+            open-sourced
+          </a>{" "}
+          on GitHub
         </footer>
       </div>
     </div>
