@@ -9,6 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "start": "node your-script.js",
     "test": "json"
   },
   "repository": {
