@@ -8,6 +8,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
+        <TimeDate date={props.data.date} />
         <Weather defaultCity="London" />
         <Search />
 
