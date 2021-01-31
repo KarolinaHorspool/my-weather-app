@@ -9,7 +9,7 @@ export default function WeatherForecastPreview(props) {
   }
 
   function temperature() {
-    //let temperature = Math.round(props.data.main.temp);
+    let temperature = Math.round(props.data.main.temp);
     return `${temperature}°C`;
   }
 

@@ -1,6 +1,7 @@
 import React from "react";
+import Search from "./Search";
 
-export default function FormattedDate(props) {
+export default function TimeDate(props) {
   let days = [
     "Sunday",
     "Monday",

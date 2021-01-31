@@ -3,12 +3,12 @@ import "./App.css";
 import Weather from "./Weather";
 import Search from "./Search";
 import WeatherForecastPreview from "./WeatherForecastPreview";
+import TimeDate from "./TimeDate";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <TimeDate date={props.data.date} />
         <Weather defaultCity="London" />
         <Search />
 
