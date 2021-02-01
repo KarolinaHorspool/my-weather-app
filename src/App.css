@@ -6,7 +6,7 @@
   margin: 30px auto;
   border: 1px solid #dadde1;
   padding: 16px;
-  border-radius: 4px;
+  border-radius: 20px;
 }
 
 form {
@@ -18,14 +18,10 @@ form {
   text-align: center;
 }
 
-.Weather {
-  font-size: 30px;
-  font-weight: 600;
-}
-
 .App footer {
   font-size: 11px;
   margin: 10px 0;
+  text-align: center;
 }
 
 li {
@@ -37,4 +33,10 @@ ul {
   list-style-type: none;
   text-align: center;
   padding: 0;
+}
+
+.Search {
+  max-width: 600px;
+  padding: 50px 60px;
+  text-align: center;
 }
