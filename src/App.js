@@ -11,7 +11,6 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="London" />
         <Search />
-
         <footer>
           This project was coded by{" "}
           <a
