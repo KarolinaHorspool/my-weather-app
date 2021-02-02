@@ -1,7 +1,6 @@
 .App {
   font-family: "Oxygen", sans-serif;
   font-weight: bolder;
-  text-align: center;
   max-width: 600px;
   margin: 30px auto;
   border: 1px solid #dadde1;
@@ -9,19 +8,15 @@
   border-radius: 20px;
 }
 
-form {
-  border-radius: 4px;
-  margin: 0 auto;
-  display: block;
-  max-width: 600px;
-  padding: 50px 60px;
+.App footer {
+  font-size: 11px;
+  margin: 60px 0;
   text-align: center;
 }
 
-.App footer {
-  font-size: 11px;
-  margin: 10px 0;
-  text-align: center;
+a {
+  color: #2646c9;
+  opacity: 0.6;
 }
 
 li {
@@ -29,10 +24,10 @@ li {
   font-family: "Oxygen", sans-serif;
 }
 
-ul {
-  list-style-type: none;
+.lastUpdate {
+  float: right;
+  display: block;
   text-align: center;
-  padding: 0;
 }
 
 .Search {

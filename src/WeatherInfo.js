@@ -8,7 +8,7 @@ export default function WeatherInfo(props) {
     <div className="WeatherInfo">
       <h1>{props.data.city}</h1>
       <ul>
-        <li>
+        <li className="LastUpdate">
           Last updated:
           <TimeDate date={props.data.date} />
         </li>
