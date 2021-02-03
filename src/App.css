@@ -10,17 +10,11 @@
 
 .App footer {
   font-size: 8px;
-  margin: 0 auto;
   text-align: center;
+  margin: 0 auto;
 }
 
 a {
   color: #2646c9;
   opacity: 0.6;
-}
-
-.Search {
-  max-width: 600px;
-  padding: 50px 60px;
-  text-align: center;
 }

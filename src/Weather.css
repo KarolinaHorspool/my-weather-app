@@ -7,10 +7,15 @@
   background-color: #145374;
   border: 1px solid #91ceee;
   transition: all 200ms ease-out;
+  width: 100%;
 }
 
 .Weather form .btn:hover {
   background-color: #a9b9c2;
+}
+
+.Weather form-control {
+  width: 100%;
 }
 
 .Weather h1 {
