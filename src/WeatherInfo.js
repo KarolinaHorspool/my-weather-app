@@ -8,10 +8,12 @@ export default function WeatherInfo(props) {
     <div className="WeatherInfo">
       <h1>{props.data.city}</h1>
       <ul>
-        <li className="LastUpdate">
-          Last updated:
-          <TimeDate date={props.data.date} />
-        </li>
+        <div className="float-right">
+          <li>
+            Last updated:
+            <TimeDate date={props.data.date} />
+          </li>
+        </div>
         <li className="text-capitalize">{props.data.description}</li>
       </ul>
       <div className="row mt-3">
@@ -28,7 +30,7 @@ export default function WeatherInfo(props) {
         <div className="col-6">
           <ul>
             <li>Humidity: {props.data.humidity}%</li>
-            <li>Wind: {props.data.wind} km/h</li>
+            <li>Wind: {Math.round(props.data.wind)} km/h</li>
           </ul>
         </div>
       </div>

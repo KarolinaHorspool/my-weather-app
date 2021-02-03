@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-import TimeDate from "./TimeDate";
 import "./App.css";
 
 export default function Search() {
