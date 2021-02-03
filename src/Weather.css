@@ -44,6 +44,7 @@
   font-size: 16px;
   line-height: 19px;
   list-style: none;
+  padding: 5px 5px;
 }
 
 .Weather canvas {
@@ -66,4 +67,15 @@
   top: -34px;
   margin-left: 5px;
   line-height: 1;
+}
+
+.WeatherInfo .time {
+  font-size: 20px;
+  padding: 0 50px;
+  margin-top: 0px;
+  text-decoration: underline;
+}
+
+.WeatherIcon {
+  color: #97498f;
 }
