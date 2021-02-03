@@ -10,7 +10,6 @@ export default function WeatherInfo(props) {
       <ul>
         <div className="float-right">
           <li>
-            Last updated:
             <TimeDate date={props.data.date} />
           </li>
         </div>
