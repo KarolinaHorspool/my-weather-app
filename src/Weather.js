@@ -55,6 +55,7 @@ export default function Weather(props) {
           </div>
         </form>
         <WeatherInfo data={weatherData} />
+        <div className="Next"> ➜ Weather forecast for the next hours </div>
         <hr />
         <WeatherForecast city={weatherData.city} />
       </div>

@@ -76,3 +76,11 @@
   margin-top: 0px;
   text-decoration: underline;
 }
+
+.Weather .Next {
+  color: #555555;
+  font-size: 18px;
+  font-weight: 100;
+  text-align: center;
+  margin: 30px 20px 1px 20px;
+}
