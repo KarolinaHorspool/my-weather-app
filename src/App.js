@@ -4,10 +4,12 @@ import "./App.css";
 
 export default function App() {
   return (
-    <div className="App">
-      <div className="box">
-        <div className="container">
-          <Weather defaultCity="London" />
+    <div>
+      <div className="App">
+        <div className="box">
+          <div className="container">
+            <Weather defaultCity="London" />
+          </div>
         </div>
       </div>
       <footer>
